@@ -12,8 +12,8 @@ export const NavBar = () => {
                     <h1 className="title">DecoShop</h1>
                 </div>
             </Link>
-            <Link className="link" to="/category/interior">Interiores</Link>
-            <Link className="link" to="/category/exterior">Exteriores</Link>
+            <Link className="link" to="/category/interior">Interior</Link>
+            <Link className="link" to="/category/exterior">Exterior</Link>
             <Link className="link" to="/cart">
                 <CartWidget></CartWidget>
             </Link>
