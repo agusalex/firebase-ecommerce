@@ -1,0 +1,29 @@
+.navbar-m {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 7vw;
+    align-items: center;
+    max-height: 10vw;
+    background: #282c34;
+    color: aliceblue;
+}
+
+.link {
+    font-size: 3vw !important;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.title {
+    font-size: 4vw;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.active {
+    font-size: 3vw !important;
+    text-decoration: inherit;
+    color: darkslateblue;
+}

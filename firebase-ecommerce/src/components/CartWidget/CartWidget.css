@@ -1,0 +1,19 @@
+.cart {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 20%;
+    font-size: 2.5vw;
+}
+
+.cart-font {
+    font-size: 2vw;
+}

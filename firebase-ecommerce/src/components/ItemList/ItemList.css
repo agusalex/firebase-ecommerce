@@ -1,0 +1,13 @@
+.estilos-listado {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+    justify-content: space-evenly;
+}
+
