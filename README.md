@@ -1,6 +1,6 @@
 # Firebase ecommerce [Click for demo](https://firebase-ecommerce-brown.vercel.app)
 
-This is an e-commerce platform built with React, Firebase, and LocalStorage. It allows users to add products to their cart and view an order summary.
+This is really simple bare-bones e-commerce platform built with React, Firebase, and LocalStorage. It allows users to add products to their cart and view an order summary.
 
 ![alt text](https://github.com/agusalex/Preentrega2-Alexander/blob/main/acelerated-compressed.gif?raw=true)
 
