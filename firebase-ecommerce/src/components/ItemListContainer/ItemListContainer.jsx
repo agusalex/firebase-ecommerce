@@ -26,10 +26,7 @@ export const ItemListContainer = () => {
         <div className="banner-container">
             <div className="container-b">
                 <img className="banner" src={banner} alt="banner"/>
-                <p className="banner-text">En DecoShop, nos dedicamos a crear espacios que emocionen tanto por dentro
-                    como por fuera de tu hogar o negocio. Ofrecemos proyectos de decoración e interiorismo con un toque
-                    personal y auténtico, gracias a nuestra selección cuidadosa de piezas únicas y obras de arte.
-                    ¡Descubre cómo podemos transformar tu espacio en un lugar especial con DecoShop!
+                <p className="banner-text">At DecoShop, we believe that a space should not just be functional, but also an expression of your unique style and personality. That's why we offer bespoke decoration and interior design services that bring your vision to life. Our team of experts carefully curates each piece and artwork to create a truly one-of-a-kind space that inspires and delights. Let DecoShop transform your home or business into a reflection of your individuality, and experience the joy of a space that truly resonates with you.
                 </p>
             </div>
             <div className="item-list-container">
