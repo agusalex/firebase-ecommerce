@@ -1,4 +1,4 @@
-# Firebase ecommerce [Click for demo](https://proyecto-final-alexander.vercel.app/)
+# Firebase ecommerce [Click for demo](https://firebase-ecommerce-brown.vercel.app)
 
 This is an e-commerce platform built with React, Firebase, and LocalStorage. It allows users to add products to their cart and view an order summary.
 
