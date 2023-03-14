@@ -1,37 +1,41 @@
-# Proyecto Final Alexander [Click para demo](https://proyecto-final-alexander.vercel.app/)
+# Firebase ecommerce [Click for demo](https://proyecto-final-alexander.vercel.app/)
 
-Plataforma e-commerce construida con React, Firebase y LocalStorage. Permite a los usuarios agregar productos a su carrito y ver un resumen del pedido.
+This is an e-commerce platform built with React, Firebase, and LocalStorage. It allows users to add products to their cart and view an order summary.
 
 ![alt text](https://github.com/agusalex/Preentrega2-Alexander/blob/main/acelerated-compressed.gif?raw=true)
-![alt text](https://github.com/agusalex/Preentrega2-Alexander/blob/main/example-readme.png?raw=true)
 
+## Installation
 
+To run the application on your local machine, follow these steps:
 
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Create a Firebase account and create a new application.
+4. Add items to Firestore.
+5. Start the application using `npm run start`.
 
-## Instalación
+## Functionality
 
-Para ejecutar la aplicación en tu máquina local, sigue estos pasos:
+### Adding products to the cart
 
-1. Clonar este repositorio.
-2. Instalar las dependencias utilizando `npm install`.
-3. Crear una cuenta en Firebase y crea una nueva aplicación.
-4. Agregar Items a Firestore
-5. Iniciar la aplicación utilizando `npm run start`.
+Products can be added to the cart by clicking on the "Add to Cart" button on the product page. If the product is out of stock or the desired quantity exceeds the maximum stock quantity, it cannot be added to the cart.
 
-## Funcionamiento
+### Cart Persistence
 
-### Añadir productos al carrito
+The application uses LocalStorage to persist the user's cart.
 
-Se puede agregar productos al carrito haciendo clic en el botón "Añadir al carrito" en la página del producto. Si el producto está fuera de stock, no sera posible agregar al carrito, tampoco si la cantidad deseada supera la maxima cantidad de stock.
+### Order Summary
 
-### Persistencia del carrito
+Once you have added products to the cart, you can go to the order summary page by clicking on the cart icon in the navigation bar and clicking on "Finish Purchase".
 
-La aplicación utiliza LocalStorage para persistir el carrito del usuario.
+### Out of Stock Warning
 
-### Resumen del pedido
+If you try to add more products than are available in stock, a warning message will be displayed indicating that there is not enough stock available.
 
-Una vez que hayas agregado productos al carrito, podes ir a la página de resumen del pedido haciendo clic en el icono del carrito en la barra de navegación y hacer click en finalizar compra.
+## Future Improvements
 
-### Advertencia fuera de stock
-
-Si se intenta agregar más productos de los que hay disponibles en stock, se mostrará un mensaje de advertencia indicando que no hay suficiente stock disponible.
+1. Sync stock in backend, dont allow orders that would cause negative stock 
+2. Add auth to prevent abuse
+3. Add styling to checkout page
+4. Improve mobile and desktop responsiveness and style
+5. Make a my orders page based on user
